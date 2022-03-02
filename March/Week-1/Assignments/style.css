@@ -1,0 +1,26 @@
+#nav{
+    /* position: fixed; */
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    background-color: antiquewhite;
+    width: 100%;
+}
+.head{
+    margin: 10px; ;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.b{
+    margin-top: 10px;
+    padding: 10px;
+}
+.t{
+    border: 2px, solid, black;
+    /* border-collapse: collapse; */
+}
