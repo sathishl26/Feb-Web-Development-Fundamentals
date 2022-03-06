@@ -1,0 +1,42 @@
+.contain{
+    height: 100vh;
+    width: 100vw;
+}
+.head{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+    font-weight: bolder;
+    color: darkblue;
+    font-size: large;
+}
+.nav{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    background-color: crimson;
+    align-items: center;
+    justify-content:space-evenly;
+    border-style: solid;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: greenyellow;  
+}
+.main{
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+.foot{
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+    background-color: aquamarine;
+    border-top: 5px;
+    border-top-style: solid;
+}
