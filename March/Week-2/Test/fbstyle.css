@@ -27,6 +27,10 @@
 h1{
     color: blue;
 }
+h1:hover{
+    transform: rotate(360deg);
+    transition: transform 4s;
+}
 .right{
     height: 50vh;
     width:60vw;
@@ -57,6 +61,7 @@ input{
     font-size: large;
     width: 200px;
     border: 1px solid grey;
+    cursor: pointer;
 }
 .newbtn{
     padding: 10px;
@@ -65,5 +70,13 @@ input{
     font-size: large;
     width: 200px;
     border: 1px solid grey;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.foot{
+    display: flex;
+    margin-top: 40px;
 }
 
