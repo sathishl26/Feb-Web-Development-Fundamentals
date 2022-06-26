@@ -1,51 +1,56 @@
 *{
-    margin:0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Oxygen', sans-serif;
 }
 .container{
-  height: 100%;
-  width: 100%;
+  background: url(images/bg1.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 .navbar{
-    height: 10vh;
+    height: 70px;
     width: 100vw;
-    background-color: deepskyblue;
+    background-color: rgb(113,141,156);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     position: fixed;
+    border-bottom: #c8e5a8 solid 5px;
 }
 /* attribute text style */
 a{
 text-decoration: none;
 font-size: large;
 font-weight: bold;
+text-transform: uppercase;
 color: cornsilk;
 }
 
+a:hover{
+  color: #d23655;
+}
 /* The dropdown container */
 .dropdown {
     float: right;
     overflow: auto;
   }
-  
-  /* Dropdown button */
-  .dropbtn {
-    font-size: large;
-    font-weight: bold;
-    color: cornsilk;
-    border: none;
-    outline: none;
-    background-color: inherit;
-  }
-  
-  
+   
   /* Dropdown content (hidden by default) */
   .dropdown-content {
+    
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: cornsilk;
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #00FFFFFFF;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -70,15 +75,16 @@ color: cornsilk;
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .image{
-    height: 70vh;
-    width:100%;
-    background-color: rgb(209, 21, 216);
+  .about{
+    height: fit-content;
+    margin-top: 10px;
+    padding: 10px;
   }
   .contact{
+    margin-top: 100px;
+    position: relative;
     width: 100vw;
     height: 100vh;
-    background-color: #ddd;
   }
   .contactinfo{
     display: flex;
@@ -87,7 +93,7 @@ color: cornsilk;
   .info{
     width: 50vw;
     height: 60vh;
-    background-color: rgb(221, 32, 32);
+    background-color: ;
   }
   iframe{
     width: 50vw;
